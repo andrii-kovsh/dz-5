@@ -11,7 +11,7 @@ public class SumComparison {
         boolean FirstSumIsGreater = first_sum > second_sum;
         System.out.println("Перша сума більша: " + FirstSumIsGreater);
 
-        first_sum += 1;
+        first_sum++;
         second_sum -= 2;
 
         boolean UpdatedFirstSumIsGreater = first_sum > second_sum;
